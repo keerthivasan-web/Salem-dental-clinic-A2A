@@ -1,0 +1,41 @@
+/* Custom animations for smooth transitions */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-up {
+    transform: translateY(40px);
+}
+
+.fade-in-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Staggered delays for children if needed */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+
+/* Custom Map Dark Mode Overlay */
+/* Note: The inline filter in HTML handles most of it, but we can add more if needed */
+
+/* Selection Styling (fallback if Tailwind classes don't cover everything) */
+::selection {
+    background-color: #facc15; /* yellow-400 */
+    color: #000;
+}
+
+/* Smooth scrolling override if needed */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar active state */
+.nav-scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(12px) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}

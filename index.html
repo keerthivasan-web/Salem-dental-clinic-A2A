@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salem Dental Clinic</title>
+    <meta name="description" content="Advanced Dental Care With Gentle & Painless Treatment in Salem">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white overflow-x-hidden selection:bg-yellow-400 selection:text-black font-sans">
+    
+    <!-- NAVBAR -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-4 px-6 top-0">
+        <div class="max-w-7xl mx-auto flex justify-between items-center bg-black/50 backdrop-blur-md border border-white/10 rounded-full px-6 py-3">
+            <div class="text-xl font-bold bg-gradient-to-r from-white to-yellow-500 bg-clip-text text-transparent">
+                Salem Dental Clinic
+            </div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-zinc-300">
+                <a href="#home" class="hover:text-yellow-400 transition-colors">Home</a>
+                <a href="#about" class="hover:text-yellow-400 transition-colors">About</a>
+                <a href="#services" class="hover:text-yellow-400 transition-colors">Services</a>
+                <a href="#reviews" class="hover:text-yellow-400 transition-colors">Reviews</a>
+            </div>
+            <a href="#appointment" class="px-5 py-2 rounded-full bg-yellow-500 text-black font-bold hover:bg-yellow-400 transition-transform hover:scale-105 shadow-lg shadow-yellow-500/20 text-sm">
+                Book Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="relative h-screen flex items-center justify-center px-6 overflow-hidden bg-zinc-950">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-[url('images/hero-bg.jpg')] bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity"></div>
+        
+        <!-- Gradient Overlays for Readability -->
+        <div class="absolute inset-0 bg-gradient-to-br from-black/90 via-zinc-900/80 to-yellow-900/60"></div>
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,#facc15,transparent_30%),radial-gradient(circle_at_bottom_left,#ffffff,transparent_20%)]"></div>
+
+        <div class="relative z-10 max-w-6xl text-center animate-on-scroll fade-in-up">
+            <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/40 bg-white/10 backdrop-blur-xl mb-6 text-sm md:text-base">
+                ★ 5.0 Google Rating • Open Until 10 PM
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-black leading-tight bg-gradient-to-r from-white via-yellow-200 to-yellow-500 bg-clip-text text-transparent">
+                SALEM DENTAL CLINIC
+            </h1>
+
+            <p class="mt-4 text-xl md:text-2xl text-zinc-300">
+                Advanced Dental Care With Gentle & Painless Treatment
+            </p>
+
+            <p class="mt-6 max-w-3xl mx-auto text-zinc-400 leading-relaxed text-sm md:text-base">
+                Trusted dental clinic in Salem providing root canal treatment,
+                cosmetic dentistry, smile correction, teeth cleaning, and complete
+                oral healthcare with expert care and modern technology.
+            </p>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <a href="#appointment" class="px-8 py-4 rounded-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold transition-all duration-300 hover:scale-105 shadow-2xl shadow-yellow-500/30">
+                    Book Appointment
+                </a>
+                <a href="#contact" class="px-8 py-4 rounded-full border border-white/20 bg-white/10 backdrop-blur-xl hover:bg-white/20 transition-all duration-300">
+                    Contact Clinic
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute top-20 left-20 w-72 h-72 bg-yellow-500/20 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-10 right-10 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute right-10 bottom-10 w-40 h-40 rounded-full bg-gradient-to-br from-white to-yellow-400 blur-3xl opacity-30 animate-pulse"></div>
+    </section>
+
+    <!-- ABOUT / GALLERY -->
+    <section id="about" class="py-24 px-6 bg-zinc-950">
+        <!-- CLINIC GALLERY -->
+        <div class="max-w-7xl mx-auto mb-24 animate-on-scroll fade-in-up">
+            <div class="text-center mb-14">
+                <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                    CLINIC GALLERY
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Premium Clinic Environment
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-[30px] h-[300px] border border-white/10">
+                    <img src="images/clinic1.jpg" onerror="this.src='https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop'" class="h-full w-full object-cover hover:scale-[1.05] transition-all duration-700" alt="Clinic Image 1">
+                </div>
+                <div class="overflow-hidden rounded-[30px] h-[300px] border border-white/10">
+                    <img src="images/clinic2.jpg" onerror="this.src='https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=1000&auto=format&fit=crop'" class="h-full w-full object-cover hover:scale-[1.05] transition-all duration-700" alt="Clinic Image 2">
+                </div>
+                <div class="overflow-hidden rounded-[30px] h-[300px] border border-white/10">
+                    <img src="images/clinic3.jpg" onerror="this.src='https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1000&auto=format&fit=crop'" class="h-full w-full object-cover hover:scale-[1.05] transition-all duration-700" alt="Clinic Image 3">
+                </div>
+                <div class="overflow-hidden rounded-[30px] h-[300px] border border-white/10">
+                    <img src="images/clinic4.jpg" onerror="this.src='https://images.unsplash.com/photo-1600170311833-c2cf5280ce49?q=80&w=1000&auto=format&fit=crop'" class="h-full w-full object-cover hover:scale-[1.05] transition-all duration-700" alt="Clinic Image 4">
+                </div>
+                <div class="overflow-hidden rounded-[30px] h-[300px] border border-white/10">
+                    <img src="images/clinic5.jpg" onerror="this.src='https://images.unsplash.com/photo-1598256989800-fea5f6170d37?q=80&w=1000&auto=format&fit=crop'" class="h-full w-full object-cover hover:scale-[1.05] transition-all duration-700" alt="Clinic Image 5">
+                </div>
+                <div class="rounded-[30px] h-[300px] bg-gradient-to-br from-yellow-500/20 to-black border border-yellow-500/20 flex items-center justify-center text-center p-8 hover:bg-yellow-500/10 transition-colors duration-500">
+                    <div>
+                        <h3 class="text-3xl font-bold text-yellow-400">
+                            Luxury Dental Experience
+                        </h3>
+                        <p class="mt-4 text-zinc-300">
+                            Modern interiors, advanced equipment, and premium patient comfort.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center animate-on-scroll fade-in-up delay-200">
+            <div>
+                <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                    ABOUT CLINIC
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+                    Luxury Dental Experience With Modern Technology
+                </h2>
+                <p class="mt-6 text-zinc-400 leading-relaxed text-lg">
+                    SALEM DENTAL CLINIC AND ROOT CANAL CENTER (A2A) is committed to delivering painless and advanced dental care using modern equipment and patient-friendly treatment methods.
+                </p>
+                <div class="mt-10 grid grid-cols-2 gap-4">
+                    <div class="p-6 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition-colors duration-300">
+                        <h3 class="text-3xl font-bold text-yellow-400">13+</h3>
+                        <p class="text-zinc-400 mt-2">Google Reviews</p>
+                    </div>
+                    <div class="p-6 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl hover:bg-white/10 transition-colors duration-300">
+                        <h3 class="text-3xl font-bold text-yellow-400">5.0</h3>
+                        <p class="text-zinc-400 mt-2">Top Rated Clinic</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 rounded-[40px] bg-gradient-to-r from-yellow-500/30 to-white/10 blur-3xl"></div>
+                <div class="relative rounded-[40px] overflow-hidden shadow-2xl border border-white/10 h-[500px]">
+                    <img
+                        src="images/clinic1.jpg"
+                        onerror="this.src='https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop'"
+                        alt="Salem Dental Clinic Interior"
+                        class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto text-center animate-on-scroll fade-in-up">
+            <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                SERVICES
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Advanced Dental Treatments
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16" id="services-grid">
+                <!-- Services will be injected via JS to keep HTML clean, or hardcoded here -->
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">
+                        🦷
+                    </div>
+                    <h3 class="text-2xl font-semibold">Root Canal Treatment</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">✨</div>
+                    <h3 class="text-2xl font-semibold">Teeth Whitening</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">🔩</div>
+                    <h3 class="text-2xl font-semibold">Dental Implants</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">😁</div>
+                    <h3 class="text-2xl font-semibold">Smile Makeover</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">🪥</div>
+                    <h3 class="text-2xl font-semibold">Braces & Aligners</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+                <div class="group p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl hover:-translate-y-2 transition-all duration-500 hover:border-yellow-500/50 hover:shadow-2xl hover:shadow-yellow-500/10 hover:bg-gradient-to-br hover:from-yellow-500/10 hover:to-transparent text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black text-3xl mb-6 group-hover:rotate-12 transition-transform duration-500">🧸</div>
+                    <h3 class="text-2xl font-semibold">Pediatric Dentistry</h3>
+                    <p class="mt-4 text-zinc-400 leading-relaxed">Premium painless treatment with modern equipment and expert care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPOINTMENT -->
+    <section id="appointment" class="py-24 px-6 bg-gradient-to-b from-zinc-950 to-black">
+        <div class="max-w-5xl mx-auto rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-2xl p-10 md:p-16 animate-on-scroll fade-in-up">
+            <div class="text-center">
+                <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                    BOOK APPOINTMENT
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Schedule Your Dental Consultation
+                </h2>
+            </div>
+
+            <form id="appointment-form" class="grid md:grid-cols-2 gap-6 mt-12">
+                <div class="md:col-span-2 p-4 rounded-2xl bg-yellow-500/10 border border-yellow-500/20 text-yellow-300 text-center font-medium">
+                    Book your appointment in less than 1 minute.
+                </div>
+                
+                <input id="form-name" required type="text" placeholder="Full Name" class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white placeholder-zinc-500">
+                <input id="form-phone" required type="tel" placeholder="Phone Number" class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white placeholder-zinc-500">
+                <input id="form-email" required type="email" placeholder="Email Address" class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white placeholder-zinc-500">
+                <select id="form-treatment" required class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white appearance-none">
+                    <option value="" disabled selected class="text-zinc-500">Select Treatment</option>
+                    <option value="Root Canal Treatment" class="bg-zinc-900">Root Canal Treatment</option>
+                    <option value="Teeth Whitening" class="bg-zinc-900">Teeth Whitening</option>
+                    <option value="Dental Implants" class="bg-zinc-900">Dental Implants</option>
+                    <option value="Other Consultation" class="bg-zinc-900">Other Consultation</option>
+                </select>
+                <input id="form-date" required type="date" class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white [color-scheme:dark]">
+                <input id="form-time" required type="time" class="p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white [color-scheme:dark]">
+                
+                <textarea id="form-message" placeholder="Message / Symptoms" rows="4" class="md:col-span-2 p-4 rounded-2xl bg-black/40 border border-white/10 outline-none focus:border-yellow-500 transition-colors text-white placeholder-zinc-500 resize-none"></textarea>
+                
+                <button type="submit" class="md:col-span-2 py-5 rounded-2xl bg-yellow-500 text-black font-bold text-lg hover:bg-yellow-400 transition-all duration-300 hover:scale-[1.02] shadow-2xl shadow-yellow-500/20 active:scale-95">
+                    Book Consultation
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto text-center animate-on-scroll fade-in-up">
+            <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                GOOGLE REVIEWS
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Trusted By Patients
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-6 mt-16">
+                <div class="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl text-left hover:bg-white/10 transition-colors duration-300">
+                    <div class="text-yellow-400 text-2xl mb-4 tracking-widest">★★★★★</div>
+                    <p class="text-zinc-300 leading-relaxed text-lg">“Kind doctors and treatment is painless.”</p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center font-bold">P</div>
+                        <div>
+                            <div class="font-semibold">Patient</div>
+                            <div class="text-xs text-zinc-500">Google Review</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl text-left hover:bg-white/10 transition-colors duration-300">
+                    <div class="text-yellow-400 text-2xl mb-4 tracking-widest">★★★★★</div>
+                    <p class="text-zinc-300 leading-relaxed text-lg">“Thank you for your service doctors ...”</p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center font-bold">K</div>
+                        <div>
+                            <div class="font-semibold">Patient</div>
+                            <div class="text-xs text-zinc-500">Google Review</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 rounded-[32px] bg-white/5 border border-white/10 backdrop-blur-xl text-left hover:bg-white/10 transition-colors duration-300">
+                    <div class="text-yellow-400 text-2xl mb-4 tracking-widest">★★★★★</div>
+                    <p class="text-zinc-300 leading-relaxed text-lg">“I would definitely recommend this place for any dental related concerns.”</p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center font-bold">S</div>
+                        <div>
+                            <div class="font-semibold">Patient</div>
+                            <div class="text-xs text-zinc-500">Google Review</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 px-6 bg-zinc-950">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center animate-on-scroll fade-in-up">
+            <div>
+                <div class="inline-block px-4 py-2 rounded-full border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 mb-6 text-sm font-semibold tracking-wider">
+                    CONTACT
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Visit Our Clinic
+                </h2>
+
+                <div class="mt-10 space-y-6 text-zinc-300 text-lg">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-xl shrink-0">📍</div>
+                        <p class="mt-2">Annadanapatti, Salem, Tamil Nadu 636002</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-xl shrink-0">📞</div>
+                        <a href="tel:08189984959" class="hover:text-yellow-400 transition-colors">081899 84959</a>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-xl shrink-0">🕒</div>
+                        <p>Open Until 10 PM</p>
+                    </div>
+                </div>
+
+                <div class="mt-10 flex flex-wrap gap-4">
+                    <a href="https://wa.me/918189984959" target="_blank" class="px-8 py-4 rounded-full bg-green-500 font-bold text-white hover:bg-green-600 hover:scale-105 transition-all duration-300 shadow-lg shadow-green-500/20 flex items-center gap-2">
+                        <span>💬</span> WhatsApp
+                    </a>
+                    <a href="tel:08189984959" class="px-8 py-4 rounded-full border border-white/20 bg-white/10 backdrop-blur-xl hover:bg-white/20 transition-all duration-300 font-bold">
+                        Call Now
+                    </a>
+                </div>
+            </div>
+
+            <div class="rounded-[40px] overflow-hidden border border-white/10 h-[400px] bg-zinc-900 shadow-2xl relative group">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.575086548777!2d78.1472855!3d11.6521509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1ba6d8011c3%3A0xc6c76ab5915d03ed!2sAnnadanapatti%2C%20Salem%2C%20Tamil%20Nadu%20636002!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; filter: invert(90%) hue-rotate(180deg) brightness(80%) contrast(120%);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="transition-all duration-500 group-hover:filter-none">
+                </iframe>
+                <div class="absolute inset-0 pointer-events-none border-[6px] border-transparent group-hover:border-yellow-500/20 transition-all duration-500 rounded-[40px]"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-10 border-t border-white/10 text-center text-zinc-500 bg-gradient-to-b from-zinc-950 to-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-6">Salem Dental Clinic</h2>
+            <p>© 2026 SALEM DENTAL CLINIC AND ROOT CANAL CENTER (A2A). All rights reserved.</p>
+            <p class="mt-2 text-yellow-400 font-medium">Healthy Smiles Begin Here.</p>
+        </div>
+    </footer>
+
+    <!-- POPUP NOTIFICATION -->
+    <div id="welcome-popup" class="fixed inset-0 z-[100] flex items-center justify-center hidden">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" id="popup-backdrop"></div>
+        
+        <!-- Modal -->
+        <div class="relative w-full max-w-md bg-zinc-900 border border-white/10 rounded-[30px] shadow-2xl p-8 transform scale-95 opacity-0 transition-all duration-300 z-10" id="popup-content">
+            <button id="close-popup" class="absolute top-6 right-6 text-zinc-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+            <div class="w-16 h-16 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-400 text-3xl mx-auto mb-6">
+                ⭐
+            </div>
+            <h3 class="text-2xl font-bold text-center text-white mb-4">Welcome to Salem Dental Clinic</h3>
+            <p class="text-zinc-400 text-center leading-relaxed mb-8">
+                We are currently accepting new patients! Book your free consultation today and experience premium, painless dental care.
+            </p>
+            <a href="#appointment" id="popup-book-btn" class="block w-full py-4 rounded-2xl bg-yellow-500 text-black font-bold text-center hover:bg-yellow-400 transition-all duration-300 shadow-lg shadow-yellow-500/20 hover:scale-[1.02]">
+                Book Now
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
