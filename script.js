@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const whatsappMessage = `*New Appointment Request* 🦷\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email}\n*Treatment:* ${treatment}\n*Date:* ${date}\n*Time:* ${time}\n*Symptoms/Message:* ${message}`;
             
             const encodedMessage = encodeURIComponent(whatsappMessage);
-            const whatsappNumber = "918189984959"; // Clinic number
+            const whatsappNumber = "919655456322"; // Clinic number
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
             // Open WhatsApp
